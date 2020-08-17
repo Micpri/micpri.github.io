@@ -1,0 +1,22 @@
+[{
+"low" : {
+    "title" : "Strawberry Fool",
+    "comment" : "Better luck next time!",
+    "img" : ""
+  },
+  "mid-low" : {
+    "title" : "Strawberry Shortcake",
+    "comment" : "Not too bad.",
+    "img" : ""
+  },
+  "mid-high" : {
+    "title" : "Strawberry Jam",
+    "comment" : "So close!",
+    "img" : ""
+  },
+  "high" : {
+    "title" : "Super Strawberry",
+    "comment" : "Amazed you got here today - shouldn't you be at home re-categorising your vinyl collection?",
+    "img" : ""
+  }
+}]

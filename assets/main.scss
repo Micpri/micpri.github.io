@@ -1,0 +1,57 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/*Define colors*/
+$grey : #D9D9D9;
+$blu : #00AFE6;
+$pink:  #cc00cc;
+$black: #111;
+
+.site-header {
+    background-color: $grey;
+}
+
+.post-list-heading {
+    background-color: $grey;
+    padding-left : 0.5%;
+}
+
+a.site-title, a.site-title:link, a.site-title:visited {
+	font-size:36px;
+	font-weight:600;
+	color: $blu;
+}
+
+a.page-link, a.page-link:link, a.page-link:visited {
+	color: $blu;
+}
+
+a.post-link, a.post-link:link, a.post-link:visited {
+	color: $black;
+}
+
+a.post-link:hover {
+	color: $pink;
+}
+
+a, a span {
+	color: $blu;
+}
+
+a:hover, a span:hover {
+	color: $pink;
+}
+
+a:visited {
+	color: $pink;
+}
+
+footer {
+    background-color: $grey;
+}
+
+p {
+	color : $black;
+}

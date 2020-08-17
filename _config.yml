@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mike Priestley
-email: michael.priestley@gu.se
+email: michael.priestley@manchester.ac.uk
 description: A collection of code snippets and projects with a focus on atmospheric science, physical chemistry and technology in general.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  Micpri
+github_username:  Mbex
 
 # Build settings
 markdown: kramdown

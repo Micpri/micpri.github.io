@@ -1,0 +1,212 @@
+[{
+  "Q1" : {
+    "Question" : "What did Godley and Creme invent in Strawberry?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "The Gizmo",
+        "Points" : 1
+      },
+      "B" : {
+        "Answer" : "The Gidget",
+        "Points" : 0
+      },
+      "C" : {
+        "Answer" : "The Widget",
+        "Points" : 0
+      },
+      "D" : {
+        "Answer" : "The Doofer",
+        "Points" : 0
+      }
+    }
+  },
+  "Q2" : {
+    "Question" : "Who made 10cc stand up and sit down?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "Emma",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "Hannah",
+        "Points" : 0
+      },
+      "C" : {
+        "Answer" : "Jenna",
+        "Points" : 0
+      },
+      "D" : {
+        "Answer" : "Donna",
+        "Points" : 1
+      }
+    }
+  },
+  "Q3" : {
+    "Question" : "Which relative is St Winifred's favourite?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "Grandad",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "Aunty",
+        "Points" : 0
+      },
+      "C" : {
+        "Answer" : "Mother",
+        "Points" : 0
+      },
+      "D" : {
+        "Answer" : "Grandma",
+        "Points" : 1
+      }
+    }
+  },
+  "Q4" : {
+    "Question" : "Which Man did Hotlegs relate to?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "Lindow Man",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "Neanderthal Man",
+        "Points" : 1
+      },
+      "C" : {
+        "Answer" : "Piltdown Man",
+        "Points" : 0
+      },
+      "D" : {
+        "Answer" : "Hipster Man",
+        "Points" : 0
+      }
+    }
+  },
+  "Q5" : {
+    "Question" : "Why can't Morrissey go out tonight? Because...",
+    "Answers" : {
+      "A" : {
+        "Answer" : "It's cold outside",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "He's washing his hair",
+        "Points" : 0
+      },
+      "C" : {
+        "Answer" : "He hasn't got a stitch to wear",
+        "Points" : 1
+      },
+      "D" : {
+        "Answer" : "He'd rather stay in with the cat",
+        "Points" : 0
+      }
+    }
+  },
+  "Q6" : {
+    "Question" : "What's the Bay City Rollers' favoured farewell?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "Goodbye Girl",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "Au Revoir Ma Belle",
+        "Points" : 0
+      },
+      "C" : {
+        "Answer" : "Bye Bye Baby",
+        "Points" : 1
+      },
+      "D" : {
+        "Answer" : "Adios Lady",
+        "Points" : 0
+      }
+    }
+  },
+  "Q7" : {
+    "Question" : "Which street did 10cc like to shuffle on?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "High Street",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "Wall Street",
+        "Points" : 1
+      },
+      "C" : {
+        "Answer" : "Easy Street",
+        "Points" : 0
+      },
+      "D" : {
+        "Answer" : "Merseyway",
+        "Points" : 0
+      }
+    }
+  },
+  "Q8" : {
+    "Question" : "What does Kathy whisper when She's Not in Love?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "Big Boys Don't Lie",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "Big Boys Don't Cry",
+        "Points" : 1
+      },
+      "C" : {
+        "Answer" : "Be Poised Don't Sigh",
+        "Points" : 0
+      },
+      "D" : {
+        "Answer" : "No Woman No Cry",
+        "Points" : 0
+      }
+    }
+  },
+  "Q9" : {
+    "Question" : "How many Yellows make up a Strawberry?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "1",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "2",
+        "Points" : 1
+      },
+      "C" : {
+        "Answer" : "3",
+        "Points" : 0
+      },
+      "D" : {
+        "Answer" : "4",
+        "Points" : 0
+      }
+    }
+  },
+  "Q10" : {
+    "Question" : "Tony Wilson's record company who used Strawberry were?",
+    "Answers" : {
+      "A" : {
+        "Answer" : "Industry",
+        "Points" : 0
+      },
+      "B" : {
+        "Answer" : "Warehouse",
+        "Points" : 0
+      },
+      "C" : {
+        "Answer" : "Factory",
+        "Points" : 1
+      },
+      "D" : {
+        "Answer" : "The Mill",
+        "Points" : 0
+      }
+    }
+  }
+}]
