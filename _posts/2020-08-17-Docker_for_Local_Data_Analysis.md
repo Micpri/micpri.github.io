@@ -27,9 +27,11 @@ If I write a small batch script to initialise the container, I can click on the 
 docker run --name docker_container --rm -it -p 8889:8888 -v C:\user\project\docker_share_dir\:/home/user/docker_dir/ docker_image
 {% endhighlight %}
 
+The one downside is that with every new project I need to assign a new unique port, this is to ensure I can run two containers and access the notebooks at the same time - which is handy for quickly copying and pasting code snippets between projects.
+
 Here you can see I assign a name to the container, remove it after I am done with it, make it interactive, assign the port for port forwarding and mount a file space. Because everything is saved (i.e. datasets, notebooks) on the hard drive, it means I can remove the container when I no longer need it. Everything is still in place when I spin up a new one.
 
-The one downside is that with every new project I need to assign a new unique port, this is to ensure I can run two containers and access the notebooks at the same time - which is handy for quickly copying and pasting code snippets between projects.
+In fact this is exactly how I now use this blog. If I have a new post to write, I do that locally and collect all my assets. Then I double click an icon on my windows machine that initialises a docker container that installs git, pulls my blog from github to an ubuntu image and creates a shared folder. Then I just copy and paste the .md and assets and move them to the correct place; add, commit and push.
 
 Obviously the power of docker is much greater than what I use it for here, but I think this is a nice introduction into how the principles of the technology work and is a small but practical usage that can be built upon in the future.
 
