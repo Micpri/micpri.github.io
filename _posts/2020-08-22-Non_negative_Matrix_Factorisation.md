@@ -38,5 +38,5 @@ Lee, D. D. and Seung, H. S.: Algorithms for non-negative matrix factorization, i
 [scikit-learns NMF module]: https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html
 [Brunet et al., 2004]: https://www.pnas.org/content/101/12/4164/
 [Isokääntä et al., 2019]: https://amt.copernicus.org/articles/13/2995/2020/amt-13-2995-2020.pdf
-[Lee and Seung, 1999)]: http://www.columbia.edu/~jwp2128/Teaching/E4903/papers/nmf_nature.pdf
+[Lee and Seung, 1999]: http://www.columbia.edu/~jwp2128/Teaching/E4903/papers/nmf_nature.pdf
 [Lee and Seung, 2001]: https://papers.nips.cc/paper/1861-algorithms-for-non-negative-matrix-factorization.pdf
