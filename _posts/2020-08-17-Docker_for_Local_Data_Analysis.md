@@ -18,7 +18,7 @@ I’m also finding it a great way to compartmentalise different workspaces.
 
 The way I currently use docker for my own analysis is to spin up a container for each project I am working on. I use the container as a local jupyter notebook server which I can then access through a web browser on my machine. A small script initialises the container and mounts a directory on my machine so I can easily pass files in and out of the container. This is handy as, on a windows machine, you can double click the icon for the script rather than messing about at the PowerShell. The docker image I use for these containers pulls and installs packages from my github account so anything I have custom written for the analysis I do is easily accessible.
 
-This is what the small script looks likeÖ
+This is what the small script looks like:
 
 {% highlight Dos %}
 docker run --name docker_container --rm -it -p 8889:8888 -v C:\user\project\docker_share_dir\:/home/user/docker_dir/ docker_image
