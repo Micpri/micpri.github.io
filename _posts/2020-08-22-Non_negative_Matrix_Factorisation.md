@@ -17,7 +17,7 @@ I used [scikit-learns NMF module][scikit-learns NMF module] and lots of associat
 
 I have not formally studied NMF and if this something I want to publish, I really have to understand how it works. For that reason, I thought it would be a useful exercise to code it up and if I get stuck or I'm unsure as to whats going on, I can work through it until I do understand. 
 
-[Click here to see the that example]({{ "/assets/nmf/NMF_example.html" | absolute_url }}).
+[Click here to see that example]({{ "/assets/nmf/NMF_example.html" | absolute_url }}).
 
 Note there are many features missing from this simple, single run (which are included in the CIMS EF work mentioned above). There is no exploration of the effects of [different cost functions, different update algorithms][Lee and Seung, 2001], [how to choose the correct number of factors][Brunet et al., 2004], the required number of iterations to find the solution, or how sensitive the dataset is to different random initial conditions. However working through the example forced me to understand what is actually happening when I hit run on the black box. Now I can confidently (to a point!) describe the process and understand some of the ins and outs of how to implement NMF.
 
