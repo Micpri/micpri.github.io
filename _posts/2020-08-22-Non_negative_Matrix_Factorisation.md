@@ -9,7 +9,7 @@ Where the dimensionality of a dataset is large, it is useful to reduce that dime
 
 Observations represented as a positive matrix V, with dimensions (n, m), are approximated by the factorised matrices W, with dimensions (n, k); and H, with dimensions (k, m); where k is the selected number of factors.
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;{\bf%20V}\approx{\bf%20W%20H}" title="\Large {\bf%20V}\approx{\bf%20W%20H}", class="center" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;{\bf%20V}\approx{\bf%20W%20H}" title="\Large {\bf%20V}\approx{\bf%20W%20H}" class="center" />
 
 I have recently used this technique to simplify a large dataset composed of emission factors measured by chemical ionisation mass spectrometry (CIMS). Hundreds of different ions are measured simultaneously as they are emitted for a number of different vehicles. This technique is useful to reduce that down and make the data more explainable.
 
