@@ -33,7 +33,7 @@ Lee, D. D. and Seung, H. S.: Learning the parts of objects by non-negative matri
 Lee, D. D. and Seung, H. S.: Algorithms for non-negative matrix factorization, in Advances in neural information processing systems, pp. 556–562., 2001.
 
 
-[NMF]: https://en.wikipedia.org/wiki/Non-negative_matrix_factorization/
+[NMF]: https://en.wikipedia.org/wiki/Non-negative_matrix_factorization
 [custom class]: https://github.com/Micpri/ToFCIMSAnalysis/blob/master/NMF.py
 [scikit-learns NMF module]: https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html
 [Brunet et al., 2004]: https://www.pnas.org/content/101/12/4164/
