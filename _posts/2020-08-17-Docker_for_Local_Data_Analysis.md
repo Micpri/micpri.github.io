@@ -35,6 +35,6 @@ In fact this is exactly how I now use this blog. If I have a new post to write, 
 
 Obviously the power of docker is much greater than what I use it for here, but I think this is a nice introduction into how the principles of the technology work and is a small but practical usage that can be built upon in the future.
 
-[docker] :https://www.docker.com/products/docker-desktop
-[pybox] :https://github.com/loftytopping/PyBox
-[genchem] :https://github.com/metno/genchem
+[docker]: https://www.docker.com/products/docker-desktop/
+[pybox]: https://github.com/loftytopping/PyBox/
+[genchem]: https://github.com/metno/genchem/
