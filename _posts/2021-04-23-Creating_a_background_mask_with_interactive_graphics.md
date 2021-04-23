@@ -73,8 +73,7 @@ Using the fig.canvas.mpl_connect() method (found on stackoverflow somewhere) to 
  # Print stored results to screen to check its working
  pos
 
-  {% endhighligh%}
-
+{% endhighlight %}
 
 These functions append the xdata in a predefined empty array
 
@@ -112,7 +111,7 @@ for i, pair in enumerate(bg_times):
 
 bg_step.to_csv("../gas_bg_step.csv")
 
-{% endhighligh%}
+{% endhighlight %}
 
 Now we saved the dataframe so we can read it in any time to access our newly created, relatively pain free, background bg_mask
 
