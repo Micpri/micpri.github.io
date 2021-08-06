@@ -9,7 +9,7 @@ During a brief period between jobs in 2018, I decided to try my hand at web scra
 
 I chose to scrape 13 years worth of job adverts from [metjobs][metjobs] (mid 2003-2016), a fantastic ever updating UK based job mailing list for environmental scientists archived online.
 
-My logic here was to not only learn a new technique or two i.e. web scraping and natural language processing (NLP), but also find out some trends in my specific job market
+My logic here was to not only learn a new technique or two i.e. web scraping and natural language processing (NLP), but also find out some trends in my specific job market.
 
 # Web Scraping
 
@@ -38,15 +38,15 @@ Then the actual body of the text was cleaned. This involved some learning key as
 
 Next, these cleaned pickle files were written to a csv for easy interrogation. This resulted in an 80mb csv file (so not outrageous) of 10,887 entries.
 
-Each entry has a unique ID, date, email address, a country (taken from the email address domain) content (tokenized text), stems, lemmas and language (using XXX).
+Each entry has a unique ID, date, email address, a country (taken from the email address domain) content (tokenized text), stems, lemmas and language.
 
 # Analysis
 
 Now the fun bit.
 
-The two main questions I had were essentially; what are the jobs, including what skills or fields are popular; and where are the jobs, this includes not just physical location / country but also institution? (This of course is skewed towards academia due to the data source)
+The two main questions I had were essentially; what are the jobs, including what skills or fields are popular; and where are the jobs, this includes not just physical location / country but also institution? (This of course is skewed towards academia due to the data source).
 
-Firstly, just by looking at the number of posts per month over time we can see the list is growing
+Firstly, just by looking at the number of posts per month over time we can see the list is growing.
 
 ![posts per month]({{ "/assets/webscrape_metjobs/posts per month.png" | absolute_url }})
 
@@ -56,7 +56,7 @@ To answer the 'where are the jobs?' question I first split this into UK and non-
 
 Here we see if a post is from the UK (TRUE) or not (FALSE). It looks like half the job posts originate from the UK.
 
-![posts per month UK or Not]({{ "/assets/webscrape_metjobs/posts per month UK or Not.png" | absolute_url }})
+![posts per month UK or Not]({{ "/assets/webscrape_metjobs/posts per month UK or not.png" | absolute_url }})
 
 If we look closer at the non UK jobs, we can see Germany, the USA and France are the largest contributors (not surprisingly!). Other than Australia, the USA and Canada, the top ten non UK contributors are European countries.
 
@@ -64,7 +64,7 @@ If we look closer at the non UK jobs, we can see Germany, the USA and France are
 
 Interestingly then are the languages of the posts. Of course English is dominant with ~10,000 of the 10,887 entries written in that language. Unsurprisingly next is German with ~400 posts but then we see Croatian and Somali in the top 5.
 
-![posts by language]({{ "/assets/webscrape_metjobs/posts by language.png" | absolute_url }})
+![posts by language]({{ "/assets/webscrape_metjobs/posts by language.PNG" | absolute_url }})
 
 This feels dubious, especially after looking at the top ten countries posting.
 
@@ -82,7 +82,7 @@ This was a very broad brush analysis but provided some good insights.
 
 Firstly, it became clear that as job postings increased over time, so would the incidences of certain words. In fact, this is essentially true for all key words that were searched. In these next plots, the left panel shows the absolute number of words per month. The right panel shows the number of words per month normalized to the total number of posts that month to tease out the trend.
 
-You will see a linear trend fitted to all data. This of course is not always applicable
+You will see a linear trend fitted to all data. This of course is not always applicable.
 
 Firstly just to check is the list working better for PhDs or post-docs? Looks to me like there are more PhD adverts in absolute terms but the trend favours postdocs. Interestingly post vs postdoc gives very different results indicating specificity in this instance was useful.
 
@@ -94,9 +94,9 @@ It looks like modeling adverts are more common than measurement adverts, althoug
 
 ![key skills measured modeled]({{ "/assets/webscrape_metjobs/key skills measured modeled.png" | absolute_url }})
 
-If modeling is the more sought after skill compared to measurements then what are the specifics. Here we can see requests for programming actually decreasing over time whereas soft (assuming software) are increasing. This seems to demand a different kind of computer literacy.
+If modeling is the more sought after skill compared to measurements then what are the specifics? Here we can see requests for programming actually decreasing over time whereas soft (assuming software) are increasing. This seems to demand a different kind of computer literacy.
 
-Interestingly programming languages such as matlab and python are mentioned more and more. Whilst matlabs trend appears linear python looks exponential and really kicked off midway through the analysis period. Interestingly excel has consistently been mentioned showing no trend, and also at greater frequency than the two more specialist programming languages.
+Interestingly, programming languages such as matlab and python are mentioned more and more. Whilst matlabs trend appears linear python looks exponential and really kicked off midway through the analysis period. Excel has consistently been mentioned (no trend) and also at a greater frequency than the two more specialist programming languages.
 
 ![key skills programming]({{ "/assets/webscrape_metjobs/key skills programming.png" | absolute_url }})
 
@@ -104,7 +104,9 @@ Broadening the search beyond hard skills I thought to try looking at words that 
 
 ![key skills sector]({{ "/assets/webscrape_metjobs/key skills sector.png" | absolute_url }})
 
-Finally, I tried to interogate  scientific diciplines to assess which field is the most prevalent, or likely to be in the near future. There are a lot of words used here with the key takeaways that Engin and Sea show both positive trends over time. Atmosph and aersol show a reduction and leveling off, likely due to the diversification of the list from its early days. The plot is posted at the end of the article
+Finally, I tried to interogate  scientific diciplines to assess which field is the most prevalent, or likely to be in the near future. There are a lot of words used here with the key takeaways that Engin and Sea show both positive trends over time. Atmosph and aersol show a reduction and leveling off, likely due to the diversification of the list from its early days. 
+
+The plot of these data is posted at the end of the article.
 
 # Conclusions
 
@@ -123,9 +125,10 @@ It would also be interesting to tie this data together with information on how t
 I would love to try this again, now 3 years after the analysis was first performed to see if these trends remain true.
 
 
+
+
+
 ![key disciplines]({{ "/assets/webscrape_metjobs/key disciplines.png" | absolute_url }})
-
-
 
 [metjobs]:https://www.lists.rdg.ac.uk/mailman/listinfo/met-jobs
 [Beautiful Soup]:https://beautiful-soup-4.readthedocs.io/en/latest/
