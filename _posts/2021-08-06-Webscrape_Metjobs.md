@@ -56,7 +56,7 @@ To answer the 'where are the jobs?' question I first split this into UK and non-
 
 Here we see if a post is from the UK (TRUE) or not (FALSE). It looks like half the job posts originate from the UK.
 
-![posts per month UK or Not]({{ "/assets/webscrape_metjobs/posts per month UK or not.png" | absolute_url }})
+![posts per month UK or Not]({{ "/assets/webscrape_metjobs/posts per month UK or not.PNG" | absolute_url }})
 
 If we look closer at the non UK jobs, we can see Germany, the USA and France are the largest contributors (not surprisingly!). Other than Australia, the USA and Canada, the top ten non UK contributors are European countries.
 
